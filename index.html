@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Pricing-component-with-toggle-master</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!-- Style -->
+    <link
+    rel="stylesheet"
+    href="style.css"
+
+  />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Our Pricing</h2>
+        <div class="toggle">
+          <h6 class="annually-switch">Annually</h6>
+
+          <label class="switch">
+            <input type="checkbox" id="switcher" checked />
+            <span class="slider circle"></span>
+          </label>
+
+          <h6 class="monthly-switch">Monthly</h6>
+        </div>
+        <div id="monthly" class="wrapper-card">
+          <div class="row">
+            <div class="column">
+          <div class="card">
+            <div class="card-title">
+              <h6>Basic</h6>
+            </div>
+            <div class="card-price">
+             <h1><span class="dollar">&dollar;</span>19.99</h1>
+            </div>
+            <div class="card-description">
+              <ul class="monthly">
+                
+                <li>
+                  500 GB Storage
+                </li>
+              
+                <li>
+                  2 Users Allowed
+                </li>
+              
+                <li>
+                  Send up to 3 GB
+                </li>
+              </ul>
+            </div>
+            <div class="card-button">
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+            </div>
+            <div class="column">
+            <div class="card recomanded">
+              <div class="card-title">
+                <h6>Professional</h6>
+              </div>
+              <div class="card-price">
+                <h1><span class="dollar">&dollar;</span>24.99</h1>
+              </div>
+              <div class="card-description main-list">
+                <ul>
+                  
+                  <li>
+                    1 TB Storage
+                  </li>
+                
+                  <li>
+                    5 Users Allowed
+                  </li>
+                
+                  <li>
+                    Send up to 10 GB
+                  </li>
+                </ul>
+              </div>
+              <div class="card-button">
+                <a href="#" class="recomanded-button">Learn More</a>
+              </div>
+            </div>
+            </div>
+            <div class="column"> 
+            <div class="card">
+              <div class="card-title">
+                <h6>Master</h6>
+              </div>
+              <div class="card-price">
+                <h1><span class="dollar">&dollar;</span>39.99</h1>
+              </div>
+              <div class="card-description">
+                <ul>
+                  
+                  <li>
+                    2 TB Storage
+                  </li>
+                
+                  <li>
+                    10 Users Allowed
+                  </li>
+                
+                  <li>
+                    Send up to 20 GB
+                  </li>
+                </ul>
+              </div>
+              <div class="card-button">
+                <a href="#" class="button">Learn More</a>
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+          <div id="annually" class="wrapper-card hide">
+            <div class="row">
+              <div class="column">
+            <div class="card">
+              <div class="card-title">
+                <h6>Basic</h6>
+              </div>
+              <div class="card-price">
+               <h1><span class="dollar">&dollar;</span>199.99</h1>
+              </div>
+              <div class="card-description">
+                <ul class="monthly">
+                  
+                  <li>
+                    500 GB Storage
+                  </li>
+                
+                  <li>
+                    2 Users Allowed
+                  </li>
+                
+                  <li>
+                    Send up to 3 GB
+                  </li>
+                </ul>
+              </div>
+              <div class="card-button">
+                <a href="#" class="button">Learn More</a>
+              </div>
+            </div>
+              </div>
+              <div class="column">
+              <div class="card recomanded">
+                <div class="card-title">
+                  <h6>Professional</h6>
+                </div>
+                <div class="card-price">
+                  <h1><span class="dollar">&dollar;</span>249.99</h1>
+                </div>
+                <div class="card-description main-list">
+                  <ul>
+                    
+                    <li>
+                      1 TB Storage
+                    </li>
+                  
+                    <li>
+                      5 Users Allowed
+                    </li>
+                  
+                    <li>
+                      Send up to 10 GB
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-button">
+                  <a href="#" class="recomanded-button">Learn More</a>
+                </div>
+              </div>
+              </div>
+              <div class="column"> 
+              <div class="card">
+                <div class="card-title">
+                  <h6>Master</h6>
+                </div>
+                <div class="card-price">
+                  <h1><span class="dollar">&dollar;</span>399.99</h1>
+                </div>
+                <div class="card-description">
+                  <ul>
+                    
+                    <li>
+                      2 TB Storage
+                    </li>
+                  
+                    <li>
+                      10 Users Allowed
+                    </li>
+                  
+                    <li>
+                      Send up to 20 GB
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-button">
+                  <a href="#" class="button">Learn More</a>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/mahazz">Maha</a>.
+        </div>
+        <script
+          src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+          crossorigin="anonymous"
+        ></script>
+        <script>
+          $(document).ready(function(){
+	        $(".switch input").on("change", function(e) {
+        	const isOn = e.currentTarget.checked;
+    
+          if (isOn) {
+        	$("#monthly").show();
+          $("#annually").hide();
+          } else {
+    	    $("#annually").show();
+          $("#monthly").hide();
+    }
+  });
+});
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
