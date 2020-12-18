@@ -278,3 +278,29 @@ li:last-child {
     width: 284px;
   }
 }
+@media only screen and (min-device-width: 411px) and(max-device-width: 823px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  .column {
+    width: 100%;
+    display: block;
+    margin: 41px -12px;
+  }
+  .card {
+    width: 284px;
+  }
+  .recomanded {
+    width: 284px;
+  }
+}
+@media only screen and (max-device-width: 800px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  .column {
+    width: 100%;
+    display: block;
+    margin: 41px -12px;
+  }
+  .card {
+    width: 284px;
+  }
+  .recomanded {
+    width: 284px;
+  }
+}
