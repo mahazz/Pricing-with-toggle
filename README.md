@@ -1,1 +1,1 @@
-# pricing-with-toggle
+# pricing-with-toggle 💰
